@@ -18,3 +18,6 @@ None of these rules are personal, there is no agenda in the rules; it's all abou
 
 ## Rule 4: Contribute.
 The rules are not here to be written by one and followed by all, they are written by the team for the team. So contribute your ideas and best practices! See [How to Contribute](docs/how-to-contribute.md).
+
+## Rule 5: Do not use that which is unnecessary.
+Code and Page bloat are easily avoidable, and serve both the developer and the audience to avoid. The more external frameworks we include in our JavaScript the longer each page takes to load, and the more code we have to trawl through when something goes wrong. Usually, there is a micro-library that will do the same thing, if VanillaJS won't.
